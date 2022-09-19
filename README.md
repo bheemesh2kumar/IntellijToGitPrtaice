@@ -1,0 +1,2 @@
+# IntellijToGitPrtaice
+IntellijToGitPrtaice
