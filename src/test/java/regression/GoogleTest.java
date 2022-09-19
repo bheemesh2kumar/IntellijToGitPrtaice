@@ -14,6 +14,7 @@ public class GoogleTest {
         WebDriver driver = new ChromeDriver();
         driver.navigate().to("https://www.google.com/");
         driver.manage().window().maximize();
+         driver.manage().deleteAllCookies();
         driver.quit();
 
     }
