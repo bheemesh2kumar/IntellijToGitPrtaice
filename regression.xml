@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" thread-count="3">
+    <test name="Smoke">
+        <!-- <parameter name="typeOfCardio" value="Swimming"/>
+         <parameter name="typeOfStrengthExercise" value="Bench Press"/>-->
+        <classes>
+            <class name="regression.ZooplaHomeTest">
+                <methods>
+                    <include name="logTestAndLableValidation"></include>
+                    <include name="settingValidation"></include>
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+
+   <!-- <test name="regression">
+        &lt;!&ndash; <parameter name="typeOfCardio" value="Swimming"/>
+         <parameter name="typeOfStrengthExercise" value="Bench Press"/>&ndash;&gt;
+        <classes>
+            <class name="regression.ZooplaHomeTest_Extn">
+                <methods>
+                    <include name="settingValidation"></include>
+                </methods>
+            </class>
+        </classes>
+    </test> -->
+</suite> <!-- Suite -->
